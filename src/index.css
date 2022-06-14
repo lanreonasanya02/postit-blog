@@ -1,13 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Harmattan&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Harmattan", sans-serif;
+  /* background-color: #e5e5e5; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* /* 
+Home
+/*  */
+
+/* Navbar */
+.nav-link {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+}
+
+.button {
+  background-color: #0086b0;
+}
+
+/* Hero section */
+header {
+  background-image: url(./images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  max-width: 100%;
+  /* border: 1px solid red; */
+}
+
+.head {
+  padding: 5rem;
+}
+
+.input-email {
+  display: flex;
+}
+
+.button2 {
+  border-radius: 0;
+  background-color: #0086b0;
+  padding-top: 6px;
+}
+
+.btn:hover {
+  background-color: rgb(67, 147, 171);
+}
+
+.display-1 {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+/* Trending Section */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  background-color: #0086b0;
+}
+
+.box-1 {
+  grid-row-start: 2;
+  grid-row-end: span 2;
+}
+
+.section {
+  background: url(./images/box1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input-email-2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  color: #fff;
+  background-image: url(./images/footer.png);
+}
+span {
+  color: #0086b0;
+}
+
+/* .links ul li {
+  list-style: none;
+} */
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.links {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  padding-right: 3rem;
+}
+
+.input-email-3 {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 0.3rem 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.input-email-3 input {
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.btn3 {
+  border-radius: 5px;
+  background-color: #0086b0;
+  padding-top: 4px;
+  font-size: 0.8rem;
+}
+
+footer .underline {
+  border-bottom: 1px solid #fff;
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+.icons {
+  justify-content: space-between;
+  text-align: right;
+  margin-right: 5rem;
+}
+
+span i {
+  color: #fff;
+}
+
+/* Register page */
+
+.register {
+  margin: auto;
+  border: 2px solid gray;
+  width: fit-content;
+  background-color: #fff;
+  padding: 3rem 5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: lightgray;
+}
+
+.input-field {
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.button4 {
+  border-radius: 10px;
+  background-color: #0086b0;
+  padding-top: 4px;
+  font-size: 1.5rem;
+  /* margin: 5px 3px; */
+}
+
+a {
+  color: #0086b0;
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 575px) {
+  body {
+    margin: 0;
+    padding: 0%;
+  }
+
+  .input-email {
+    display: block;
+  }
+
+  header {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6),
+      url(./images/hero.png)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    max-width: 100%;
+    text-align: start;
+  }
+
+  .display-1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .head {
+    padding: 4rem;
+  }
+
+  .first-input {
+    display: none;
+  }
+
+  .button2 {
+    width: 65%;
+    border-radius: 5px;
+  }
+
+  .input-email-3 {
+    justify-content: space-between;
+    background: none;
+    border: none;
+  }
+
+  .input3 {
+    border-radius: 5px;
+  }
+
+  .btn3 {
+    width: 50%;
+    margin-left: 0.5rem;
+  }
 }
