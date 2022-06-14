@@ -21,10 +21,10 @@ const Hero = () => {
                 name="email"
                 id="email"
                 placeholder="Email address"
-                className="ps-2 first-input"
+                className="ps-2 first-input d-none d-xl-block"
               />
               <Link
-                className="nav-link btn btn-lg button2 text-white px-5 pb-1"
+                className="nav-link btn btn-lg button2 text-white px-5 pb-1 d-block"
                 to="/register"
               >
                 Get Started

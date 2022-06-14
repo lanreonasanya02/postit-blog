@@ -4,6 +4,7 @@ import Layout from "./pages/Layout";
 import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 import Register from "./pages/Register";
+import Stories from "./pages/Stories";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="register" element={<Register />} />
           <Route path="login" element={<Login />} />
+          <Route path="stories" element={<Stories />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
