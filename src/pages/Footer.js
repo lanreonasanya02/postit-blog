@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row mt-5 pt-5 g-2">
           <div className="col-md-5 pe-3">
             <h5 className="fw-bold">
-              About Post<span>It</span>.
+              About Post<span>it</span>.
             </h5>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam

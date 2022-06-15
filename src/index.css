@@ -5,10 +5,15 @@ body {
   padding: 0%;
   box-sizing: border-box;
   font-family: "Harmattan", sans-serif;
-  /* background-color: #e5e5e5; */
 }
 
 /* Navbar */
+/* .navbar {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+} */
+
 .nav-link {
   font-size: 24px;
   font-weight: 400;
@@ -26,7 +31,6 @@ header {
   background-size: cover;
   height: 90vh;
   max-width: 100%;
-  /* border: 1px solid red; */
 }
 
 .head {
@@ -91,10 +95,6 @@ footer {
 span {
   color: #0086b0;
 }
-
-/* .links ul li {
-  list-style: none;
-} */
 
 .links a {
   color: #fff;
@@ -191,8 +191,21 @@ a {
 }
 
 /* Stories section */
+.stories-section {
+  background-color: #f5f6f8;
+}
+
 .stories-section img {
   width: 100%;
+}
+
+.main-story-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  margin: 3rem 0 0 5rem;
 }
 
 /* Media Queries */
@@ -202,17 +215,15 @@ a {
   }
 
   header {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6),
-      url(./images/hero.png)
-    );
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+      url(./images/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    color: #fff;
     max-width: 100%;
-    text-align: start;
+    text-align: center;
+    padding-top: 3rem;
   }
 
   .display-1 {
@@ -229,7 +240,8 @@ a {
   }
 
   .button2 {
-    width: 65%;
+    display: block;
+    width: 100%;
     border-radius: 5px;
   }
 
@@ -248,6 +260,10 @@ a {
   .btn3 {
     display: block;
     width: 25%;
+  }
+
+  .main-story-section {
+    display: block;
   }
 }
 
@@ -268,4 +284,13 @@ a {
     display: block;
     width: 50%;
   }
+
+  .main-story-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* .card {
+    margin: 3rem 0 0 5rem;
+  } */
 }

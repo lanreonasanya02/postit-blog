@@ -7,7 +7,7 @@ const Register = () => {
       <div className="register text-center my-5">
         <div className="mb-5">
           <h1 className="fw-bold">
-            Join Post<span>It</span>.
+            Join Post<span>it</span>.
           </h1>
 
           <h4>Enter your email address to create an account on Postit.</h4>
