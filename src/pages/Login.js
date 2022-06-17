@@ -8,16 +8,18 @@ const Login = () => {
         <div className="py-5">
           <h1 className="fw-bold">Welcome Back</h1>
 
-          <h5>Enter your email address associated with your account.</h5>
+          <h5 className="fw-bold">
+            Enter your email address associated with your account.
+          </h5>
         </div>
 
         <div className="mb-5">
-          <h5>Your Email Address</h5>
+          <h5 className="fw-bold">Your Email Address</h5>
           <input type="email" name="email" id="email" className="input-field" />
         </div>
 
         <div className="mb-5">
-          <h5>Your Password</h5>
+          <h5 className="fw-bold">Your Password</h5>
           <input
             type="password"
             name="password"
