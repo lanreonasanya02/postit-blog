@@ -271,7 +271,7 @@ a {
 
   .card {
     justify-content: center;
-    margin: 3rem 0 0 3rem;
+    margin: 3rem 0 0 2rem;
     width: 20rem;
     border: 2px solid red;
   }

@@ -9,7 +9,7 @@ const StoriesHero = () => {
         <div className="row align-items-center ">
           <div className="col-lg-6 head">
             <h1 className="display-2 fw-bolder">
-              You’ve got a story,
+              You’ve got a story?
               <br />
               Post<span>it</span>.
             </h1>
