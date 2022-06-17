@@ -6,7 +6,7 @@ const Login = () => {
     <article className="registration">
       <div className="register text-center my-5">
         <div className="py-5">
-          <h1 className="fw-bold">Welcome Back</h1>
+          <h1 className="fw-bold">Welcome Back!</h1>
 
           <h5 className="fw-bold">
             Enter your email address associated with your account.
@@ -35,7 +35,7 @@ const Login = () => {
           Continue
         </Link>
 
-        <h6 className="sign-in mt-3">
+        <h6 className="sign-in mt-3 fw-bold">
           No account? <Link to="/register"> Sign Up</Link>
         </h6>
       </div>

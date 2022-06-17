@@ -42,7 +42,7 @@ const Register = () => {
           Continue
         </Link>
 
-        <h6 className="sign-in mt-3">
+        <h6 className="sign-in mt-3 fw-bold">
           Already have an account? <Link to="/login"> Sign In</Link>
         </h6>
       </div>
