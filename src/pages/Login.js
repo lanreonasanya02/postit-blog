@@ -8,7 +8,7 @@ const Login = () => {
         <div className="py-5">
           <h1 className="fw-bold">Welcome Back</h1>
 
-          <h4>Enter your email address associated with your account.</h4>
+          <h5>Enter your email address associated with your account.</h5>
         </div>
 
         <div className="mb-5">
@@ -33,9 +33,9 @@ const Login = () => {
           Continue
         </Link>
 
-        <h4 className="sign-in mt-3">
+        <h6 className="sign-in mt-3">
           No account? <Link to="/register"> Sign Up</Link>
-        </h4>
+        </h6>
       </div>
     </article>
   );

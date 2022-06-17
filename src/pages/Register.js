@@ -10,7 +10,7 @@ const Register = () => {
             Join Post<span>it</span>.
           </h1>
 
-          <h4>Enter your email address to create an account on Postit.</h4>
+          <h5>Enter your email address to create an account on Postit.</h5>
         </div>
 
         <div className="mb-5">
@@ -40,9 +40,9 @@ const Register = () => {
           Continue
         </Link>
 
-        <h4 className="sign-in mt-3">
+        <h6 className="sign-in mt-3">
           Already have an account? <Link to="/login"> Sign In</Link>
-        </h4>
+        </h6>
       </div>
     </article>
   );
