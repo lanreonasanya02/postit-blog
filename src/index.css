@@ -157,13 +157,20 @@ span i {
   color: #fff;
 }
 
-/* Register page */
+/* Register/Login page */
+
+.registration {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(./images/story2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .register {
   margin: auto;
   border: 2px solid gray;
+  border-radius: 12px;
   width: fit-content;
-  background-color: #fff;
   padding: 3rem 5rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: lightgray;
@@ -209,6 +216,62 @@ a {
 .card {
   margin: 3rem 0 0 0;
   width: 16rem;
+}
+
+/* DashBoard */
+
+.dash-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background-color: black;
+}
+
+.my-story,
+.welcome {
+  margin-left: 150px;
+}
+
+.dash-nav img {
+  display: block;
+  background-color: #f0f8ff;
+  padding: 0.5rem;
+  margin: auto;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.dash-nav .link {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #f0f8ff;
+  margin-bottom: 2rem;
+}
+
+.dash-nav .link:hover {
+  color: #0086b0;
+}
+
+.dash-logo {
+  margin-top: 1.5rem;
+}
+
+.copy {
+  color: #fff;
+  border: 1px groove #fff;
+  border-radius: 5rem;
+  padding: 0 0.5rem;
+}
+
+.paragraph {
+  color: lightcyan;
+  font-size: 12px;
+  margin-top: 8rem;
+  opacity: 0.5;
+  font-weight: 600;
 }
 
 /* Media Queries */
@@ -263,6 +326,11 @@ a {
   .btn3 {
     display: block;
     width: 25%;
+  }
+
+  .register {
+    margin: auto;
+    padding: 2rem 1.5rem;
   }
 
   .main-story-section {

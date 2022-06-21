@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <article className="registration">
+    <article className="registration py-5">
       <div className="register text-center my-5">
         <div className="py-5">
           <h1 className="fw-bold">Welcome Back!</h1>
@@ -30,7 +30,7 @@ const Login = () => {
 
         <Link
           className="nav-link btn btn-lg button4 text-white px-5 pb-1"
-          to="/stories"
+          to="/dashboard"
         >
           Continue
         </Link>

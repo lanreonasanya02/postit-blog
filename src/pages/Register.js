@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
-    <article className="registration">
+    <article className="registration py-5">
       <div className="register text-center my-5">
         <div className="mb-5">
           <h1 className="fw-bold">
