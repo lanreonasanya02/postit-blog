@@ -38,6 +38,11 @@ header {
   padding: 5rem;
 }
 
+input,
+textarea {
+  outline: none;
+}
+
 .input-email {
   display: flex;
 }
@@ -213,9 +218,50 @@ a {
   width: 100%;
 }
 
-.card {
+.main-story-section .image-img {
+  position: relative;
+  text-align: center;
+}
+
+.main-story-section .image-text {
+  position: absolute;
+  bottom: 3px;
+  left: 12px;
+}
+
+.main-story-section .card {
   margin: 3rem 0 0 0;
   width: 16rem;
+}
+
+/* Each Story section */
+.view-post {
+  margin: auto;
+  background-color: #f0f8ff;
+}
+
+.view-post .card {
+  margin: 3rem 0 0 0;
+  width: 40rem;
+  margin: auto;
+  background-color: #f0f8ff;
+}
+
+.view-post .cover-image {
+  height: 50vh;
+  margin-top: 1rem;
+}
+
+.view-post .underline {
+  border-bottom: 1px solid lightgrey;
+}
+
+.tag {
+  background-color: #0086b0;
+  width: fit-content;
+  padding: 8px 1rem;
+  border-radius: 7px;
+  color: #fff;
 }
 
 /* DashBoard */
@@ -231,7 +277,15 @@ a {
 
 .my-story,
 .welcome {
-  margin-left: 150px;
+  padding-left: 150px;
+}
+
+.welcome3 {
+  padding-left: 50px;
+}
+
+.welcome2 {
+  background: #f0f8ff;
 }
 
 .dash-nav img {
@@ -272,6 +326,37 @@ a {
   margin-top: 8rem;
   opacity: 0.5;
   font-weight: 600;
+}
+
+/* Profile */
+
+.profile-pic {
+  border-radius: 5rem;
+}
+
+.profile-details {
+  align-items: center;
+}
+
+.table {
+  width: 20%;
+}
+
+.table,
+tr,
+td {
+  border: none;
+}
+
+.underline3 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+}
+
+.sign-out {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 5rem;
 }
 
 /* Media Queries */

@@ -17,12 +17,13 @@ const DashNav = () => {
       <Link className="link" to="/dashboard/create">
         <i className="bi bi-pencil-square"></i>
       </Link>
-      <Link className="link" to="/notifications">
-        <i className="bi bi-bell"></i>
+
+      <Link className="link" to="/dashboard/profile">
+        <i class="bi bi-person"></i>
       </Link>
 
       <Link className="link" to="/dashboard">
-        <i class="bi bi-person"></i>
+        <i className="bi bi-bell"></i>
       </Link>
 
       <Link className="link" to="/dashboard">
